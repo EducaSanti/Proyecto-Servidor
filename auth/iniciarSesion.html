@@ -4,10 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spare Parts</title>
-    <link rel="shortcut icon" href="./assets/icons/favicon.webp" type="image/x-icon">
-    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./styles/estilosIndex.css">
+    <title>Iniciar Sesión</title>
+    <link rel="shortcut icon" href="../assets/icons/favicon.webp" type="image/x-icon">
+    <link rel="stylesheet" href="../styles/estilosInicioSesion.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
 </head>
 
 <body>
@@ -51,39 +51,38 @@
         </div>
     </nav>
     <main>
-        <h1 class="titulo-mains">Encuentra recambios en nuestra tienda</h1>
-        <div class="ct-cards">
-            <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Precio</p>
-                </div>
-            </div>
-            <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Precio</p>
-                </div>
-            </div>
-            <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Precio</p>
-                </div>
-            </div>
-            <div class="card" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Precio</p>
-                </div>
+        <!-- From Uiverse.io by andrew-demchenk0 -->
+
+        <div class="wrapper">
+            <div class="card-switch">
+                <label class="switch">
+                    <input type="checkbox" class="toggle">
+                    <span class="slider"></span>
+                    <span class="card-side"></span>
+                    <div class="flip-card__inner">
+                        <div class="flip-card__front">
+                            <div class="title">Iniciar Sesión</div>
+                            <form class="flip-card__form" action="">
+                                <input class="flip-card__input" name="usuario" placeholder="Usuario" type="text">
+                                <input class="flip-card__input" name="password" placeholder="Contraseña" type="password">
+                                <button class="flip-card__btn">Iniciar Sesión</button>
+                            </form>
+                        </div>
+                        <div class="flip-card__back">
+                            <div class="title">Crear cuenta</div>
+                            <form class="flip-card__form" action="">
+                                <input class="flip-card__input" placeholder="Usuario" type="Usuario">
+                                <input class="flip-card__input" name="correo" placeholder="Correo Electrónico" type="email">
+                                <input class="flip-card__input" name="contraseña" placeholder="Contraseña" type="password">
+                                <button class="flip-card__btn">Crear cuenta</button>
+                            </form>
+                        </div>
+                    </div>
+                </label>
             </div>
         </div>
     </main>
-    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
