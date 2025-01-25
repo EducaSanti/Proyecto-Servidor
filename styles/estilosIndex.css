@@ -1,0 +1,12 @@
+.titulo-mains{
+    text-align: center;
+    margin: 10px;
+}
+.ct-cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 10px 150px;
+}
+.card{
+    margin: 40px;
+}
