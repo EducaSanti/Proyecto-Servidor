@@ -40,10 +40,11 @@
                     </li>
                 </ul>
                 <p class="d-inline-flex gap-1">
-                    <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    <!-- Borrar data-bs-toggle para poder navegar -->
+                    <a class="btn btn-primary"  href="./auth/iniciarSesion.html" role="button" aria-expanded="false" aria-controls="collapseExample">
                         Mi cuenta
                     </a>
-                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                    <button class="btn btn-primary" type="button" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
                         Mi Cesta
                     </button>
                 </p>
